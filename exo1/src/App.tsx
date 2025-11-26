@@ -12,7 +12,7 @@ function ClickButton() {
   );
 }
 
-// Exercise 2: ToggleButton
+
 function ToggleButton() {
   const [clicked, setClicked] = useState(false);
   const handleClick = () => setClicked(!clicked);
@@ -24,7 +24,7 @@ function ToggleButton() {
   );
 }
 
-// Exercise 3: Three Buttons
+
 function ThreeButtons() {
   const [lastClicked, setLastClicked] = useState("");
   const handleClick = (buttonName: string) => setLastClicked(buttonName);
@@ -39,7 +39,7 @@ function ThreeButtons() {
   );
 }
 
-// Exercise 4: Counter
+
 function Counter() {
   const [count, setCount] = useState(0);
   return (
@@ -51,7 +51,7 @@ function Counter() {
   );
 }
 
-// Main App
+
 function App() {
   return (
     <div className="App">
