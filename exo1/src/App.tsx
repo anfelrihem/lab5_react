@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-// Exercise 1: ClickButton
+
 function ClickButton() {
   const [clicked, setClicked] = useState(false);
   return (
