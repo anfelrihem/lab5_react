@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-// DisplayTab component (paramétrable)
+
 interface DisplayTabProps {
   table: string[];
 }
@@ -24,7 +24,7 @@ function DisplayTab({ table }: DisplayTabProps) {
   );
 }
 
-// Main App component
+
 function App() {
   const tab1 = ["hello", "world", "from", "react"];
   const tab2 = ["apple", "banana", "cherry"];
