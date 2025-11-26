@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-// Type pour un div stylé
+
 interface StyledDiv {
   width: string;
   height: string;
