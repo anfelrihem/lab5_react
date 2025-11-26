@@ -1,19 +1,19 @@
 import { useState } from "react";
 import "./App.css";
 
-// Type pour un utilisateur
+
 interface User {
   username: string;
   password: string;
 }
 
-// Composant principal
+
 export default function App() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [users, setUsers] = useState<User[]>([]);
 
-  // Soumission du formulaire
+ 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -24,7 +24,7 @@ export default function App() {
     }
   };
 
-  // Supprimer un utilisateur
+
   const handleDelete = (indexToDelete: number) => {
     setUsers(users.filter((_, index) => index !== indexToDelete));
   };
